@@ -7,6 +7,7 @@ class Appointment(models.Model):
     title = models.CharField(max_length=50)
     start = models.DateTimeField()
     end = models.DateTimeField()
+    color = models.CharField(max_length=20)
     
 
 
