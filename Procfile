@@ -1,1 +1,1 @@
-web: gunicorn fullcalendar_back.wsgi
+web: gunicorn core.wsgi
